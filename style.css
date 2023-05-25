@@ -1,0 +1,227 @@
+:root{
+    --primary: #4cb8b3;
+    --primaryDark: #0b4f6c;
+    --secondary: #20bf55;
+    --grey: #757575;
+    --white: #fbfbff;
+    --black: #000000;
+
+    --mainFont: 'Montserrat', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-image: url("/imgPiscina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+    background-color: azure;
+}
+.background{
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+h1,
+h2,
+p{
+    font-family: var(--mainFont);
+    margin: 0;
+}
+h1{
+    font-size: 3rem;
+    
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: var(--black);
+    text-decoration: none;
+}
+.align-center{
+    text-align: center;
+}
+/* Headers */
+.header{
+    margin: 0;
+    /* display: grid; */
+}
+.imageLogo,
+.title{
+    text-align: center;
+    margin: 1rem;
+}
+.imageLogo,
+.downHeader,
+.footer,
+.socialItems{
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 1rem var(--primaryDark) ;
+}
+.title{
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.title1{
+    color: var(--secondary);
+    font-weight: 700;
+}
+.downHeader,
+.footer{
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--grey);
+    
+}
+.headerContact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    
+}
+.tablerIcon{
+    flex-basis: 12rem;
+    
+}
+.headerContact--text{
+    flex-grow: 1;
+    font-weight: 700;
+    
+}
+.googleText:hover{
+  text-decoration: underline;
+}
+.downHeaderTitle{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+.downHeaderList{
+    padding: 1rem;
+}
+@media (min-width: 678px){
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+    }  
+    .downHeader{        
+        width: 100%;
+        grid-area: 2 / 1 / 2 / 3;
+        margin: 0;        
+    }  
+    .downHeaderList{        
+        display:grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;;
+        gap: 10rem;
+    }
+}
+/* Main */
+@media (min-width: 768px){
+    .mainContainer{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+}
+
+.servicios{
+    font-size: 2rem;
+    
+}
+.servicioTitle,
+.redesTitle{
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primaryDark);
+    font-weight: 700;
+    font-family: var(--mainFont);
+    font-size: 2.8rem;
+}
+.servicioList{
+    padding: 0;
+}
+.servicioList > li{
+    line-height: 3rem;
+    margin-left: 5rem;
+    font-weight: 700;
+    font-family: var(--mainFont);      
+}
+/* section */
+.socialItems{
+    display: flex;
+    background-color: var(--grey);
+    margin: 2rem;
+    
+}
+.socialLink{
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: 700;
+}
+.socialIcon{
+    margin: 1rem;
+}
+.socialLink:hover{
+    text-decoration: underline;
+}
+.facebook{
+    color: var(--primaryDark);
+}
+.instagram{
+    color: orange;
+}
+.google{
+    color: var(red);
+}
+.googleSpan{
+    color: var(--secondary);
+}
+@media (min-width: 768px){
+    .socialList{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/* footer */
+.footer{
+    padding: 2rem;
+    margin-top: 4rem;
+}
+.footerText{
+    font-family: var(--mainFont);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.spanFooter{
+    font-size: 3rem;
+}
