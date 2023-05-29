@@ -201,7 +201,7 @@ a{
     color: orange;
 }
 .google{
-    color: var(red);
+    color: red;
 }
 .googleSpan{
     color: var(--secondary);
