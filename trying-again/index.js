@@ -1,5 +1,6 @@
-import showMenu from "./src/JS/menu.js"
+import showMenu from "./src/JS/menu.js";
 
 
-showMenu()
+showMenu();
+
 

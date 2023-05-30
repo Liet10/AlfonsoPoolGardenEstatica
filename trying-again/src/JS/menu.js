@@ -16,10 +16,12 @@
         overlay.appendChild(createMenu());
         overlay.appendChild(closeText)
         
-        overlay.addEventListener('click', ()=>{
+        closeText.addEventListener('click', ()=>{
+            overlay.innerHTML = '';
+            overlay.classList.remove('overlay-fixed');
             
-            overlay.remove()
-            return;
+
+
         })
            
     });
@@ -32,12 +34,17 @@ ulElement.classList.add('menu-list');
 // Crear los elementos <li> y añadir contenido
 const homeLi = document.createElement('LI');
 homeLi.textContent = 'Home';
+homeLi.classList.add('menuText');
 
 var nosotrosLi = document.createElement('LI');
 nosotrosLi.textContent = 'Nosotros';
+nosotrosLi.classList.add('menuText');
+
 
 var contactoLi = document.createElement('LI');
 contactoLi.textContent = 'Contacto';
+contactoLi.classList.add('menuText');
+
 
 // Agregar los elementos <li> al elemento <ul>
 ulElement.appendChild(homeLi);

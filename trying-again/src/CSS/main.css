@@ -1,0 +1,13 @@
+main{
+   text-align: center;    
+}
+.social{
+   margin: 2rem;
+   display: flex;
+   justify-content: space-around;
+}
+.social-icon:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+   
+}

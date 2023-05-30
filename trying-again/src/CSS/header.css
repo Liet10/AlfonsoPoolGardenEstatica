@@ -12,6 +12,22 @@
     box-shadow: .5rem .5rem 1rem var(--primaryDark) ;
     margin: 2rem;
 }
+.image-logo:hover{
+  transform: scale(1.2);
+}
+.title{
+  font-family: var(--mainFont);
+}
+.spanTitle{
+  color: var(--secondary);
+}
+@media (min-width: 768px){
+    .header-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+}
 /* menu */
 .menu-icon{
     width: 3rem;
@@ -70,3 +86,18 @@
      font-weight: 700;   
      cursor: pointer;  
   }
+  .menuText:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+
+  }
+  /* .nosotrosText:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+
+  }
+  .contactoText:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+  }
+   */

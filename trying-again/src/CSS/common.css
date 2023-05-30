@@ -14,9 +14,9 @@ body{
     background: rgb(111,192,240);
 background: linear-gradient(356deg, rgba(111,192,240,0.8057598039215687) 0%, rgba(244,246,247,0.18110994397759106) 100%);
 background-size: cover;
+background-repeat: no-repeat;
 }
 .container{
-    /* background-image: url('/trying-again/src/img/imgPiscina1.jpg'); */
    margin: 0 auto;
 
 }
