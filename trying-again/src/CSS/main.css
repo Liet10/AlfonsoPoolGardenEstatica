@@ -6,7 +6,7 @@ main{
    display: flex;
    justify-content: space-around;
 }
-.social-icon:hover{
+.icon-tabler:hover{
   transform: scale(1.2);
   cursor: pointer;
    
