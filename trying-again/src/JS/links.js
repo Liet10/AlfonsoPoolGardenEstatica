@@ -21,13 +21,12 @@ export default function linksInPages() {
         window.location.href = '/index.html';
       });
       nosotros.addEventListener("click", () => {
-        const currentPageUrl = window.location.href;
-        const currentPagePath = currentPageUrl.substring(0, currentPageUrl.lastIndexOf("/") + 1);
         const nosotrosPageUrl = "/src/pages/nosotros.html";
         window.location.href = nosotrosPageUrl;
       });
-    home.addEventListener('click', () => {
-        window.location.href = '/index.html';
+    contacto.addEventListener('click', () => {
+      const nosotrosPageUrl = "/src/pages/contacto.html";
+      window.location.href = nosotrosPageUrl;
   });
 });
 }
