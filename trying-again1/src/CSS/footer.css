@@ -1,0 +1,16 @@
+footer{
+    background-color: var(--primary);
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 1rem var(--primaryDark) 
+}
+.contact{
+    padding: 1rem;
+    color: var(--white);
+}
+.footerText{
+    margin-top: 2rem;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 1rem;
+}
+

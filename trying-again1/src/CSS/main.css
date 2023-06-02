@@ -1,0 +1,16 @@
+main{
+   text-align: center;    
+}
+.social{
+   margin: 2rem;
+   display: flex;
+   justify-content: space-around;
+}
+.icon-tabler:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+   
+}
+.imgTool{
+   width: 30rem
+}
