@@ -70,4 +70,13 @@
         padding: 1rem;
     }
 }
+.error_element{
+    background-color: #FF6D60;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--mainFont);
+    margin-top: 2rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
 
