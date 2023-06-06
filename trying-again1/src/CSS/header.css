@@ -26,14 +26,37 @@
     }
 }
 /* menu */
-.menu-icon{
+.topBar{  
+  background-color: var(--primary);  
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: .5rem;
+   
+  }
+  .phone-top{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .menu-icon{
     width: 3rem;
     height: 2rem;
     position: fixed;
-    top: 2rem;
+    top: 4rem;
     right: 4rem;
+  }
+  .menu-icon:hover{
     cursor: pointer;
-   
+  }
+  
+  .icon-top:hover{
+    transform: scale(1.2);
+    background-color: var(--primary);
+    border-radius: 5rem;
   }
   .line {
     width: 100%;

@@ -1,5 +1,12 @@
-main{
-   text-align: center;    
+.homeSections{
+   display: grid; 
+   grid-template-columns: 1fr 2fr;  
+   gap: 2rem;
+}
+.img-jardin{
+   margin: 2rem;
+   width: 80%;
+   height: 80%;
 }
 .social{
    margin: 2rem;
@@ -11,6 +18,4 @@ main{
   cursor: pointer;
    
 }
-.imgTool{
-   width: 30rem
-}
+

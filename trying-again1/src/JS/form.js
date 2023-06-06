@@ -1,13 +1,17 @@
 export default function validateForm() {
-    const form = document.getElementById("form_contacto");
+    const contactPageUrl = "/src/pages/contacto.html"; 
 
-    onlyNumber();   
+    if (window.location.href.includes(contactPageUrl)) {
+      const form = document.getElementById("form_contacto");
+      onlyNumber();
+    // const form = document.getElementById("form_contacto");
 
+    
     form.addEventListener('submit', (event) => {
         event.preventDefault(); // Evita que el formulario se envíe
         const inputName = document.getElementById("name").value;
         const inputMail = document.getElementById("email").value;
-        const inputPhone = document.getElementById("phone").value
+        // const inputPhone = document.getElementById("phone").value
       
         if (inputName === '' || inputMail === '') {  
                 const textError = 'Los campos nombre, correo son requeridos';
@@ -39,7 +43,7 @@ function onlyNumber() {
     });  
 
 }
-
+}
 
 
 
