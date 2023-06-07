@@ -1,6 +1,12 @@
 export default function MainContainer() {
+<<<<<<< HEAD
   const isHomePage = document.body.classList.contains('home-page');
   
+=======
+  const currentPath = window.location.pathname;
+  const isHomePage = currentPath === '/index.html'; // Actualiza esto con la ruta de tu página de inicio
+
+>>>>>>> 3034f5cd1c80d7c4183516f46e36610ec0cdf04f
   if (!isHomePage) {
     return; 
   }
