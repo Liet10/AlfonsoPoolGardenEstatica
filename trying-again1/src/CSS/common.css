@@ -14,8 +14,8 @@ body{
     
 }
 .container{
-    background: rgb(111,192,240);
-    background: linear-gradient(356deg, rgba(111,192,240,0.8057598039215687) 0%, rgba(244,246,247,0.18110994397759106) 100%);
+    background: rgb(201,247,196);
+    background: linear-gradient(0deg, rgba(201,247,196,0.7693452380952381) 0%, rgba(253,255,252,0.6488970588235294) 73%);
     background-size: cover;
     background-repeat: no-repeat;
    margin: 0;
