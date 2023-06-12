@@ -65,9 +65,11 @@
 
 @media (min-width: 768px){
     .button__contacto{
-        text-align: center;
         width: auto;
         padding: 1rem;
+    }
+    .button_contacto-box{
+        text-align: center;
     }
 }
 .error_element{

@@ -13,6 +13,8 @@
 .title{
   font-family: var(--mainFont);
   margin-bottom: 2rem;
+  color: var(--secondary);
+
 }
 .spanTitle{
   color: var(--secondary);
@@ -28,6 +30,7 @@
 /* menu */
 .topBar{  
   /* background-color: var(--primary);   */
+  margin: .2rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -51,7 +54,7 @@
   .menu-icon{
     width: 3rem;
     height: 2rem;
-    position: fixed;
+    position: absolute;
     top: 6rem;
     right: 4rem;
     opacity: 0.6;
@@ -60,10 +63,9 @@
     cursor: pointer;
   }
   
-  .icon-top:hover{
-    transform: scale(1.2);
-    background-color: var(--primary);
-    border-radius: 5rem;
+  .icon:hover{
+    transform: scale(1.1);
+   
   }
   .line {
     width: 100%;
